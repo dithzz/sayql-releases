@@ -4,7 +4,7 @@ SayQL is a desktop database client that writes SQL as you type plain English, wi
 
 **Free forever, for personal and commercial use.**
 
-This repository hosts SayQL's downloads and automatic updates. It has no source code.
+This repository hosts SayQL's downloads and automatic updates. The source code is at **[dithzz/sayql](https://github.com/dithzz/sayql)**, open source under the Apache License 2.0.
 
 ## Download
 
