@@ -6,6 +6,7 @@ SayQL is a desktop database client that writes SQL as you type plain English, wi
 - **Agent mode (beta)** investigates harder questions ("why did signups drop last week?") in read-only steps and answers with the queries behind it. It's off until you turn it on per connection, and you choose what the AI may see.
 - **MCP** lets Claude, Cursor and other AI apps use your saved connections, read-only.
 - **Voice input** is transcribed on your computer; audio never leaves it.
+- **SayQL for teams:** sign in to your company's SayQL server to use the database connections your team shares, with an audit log and admin rules for the AI. Teams set one up with `curl -fsSL https://sayql.dev/install | sh` ([setup guide](https://sayql.dev/docs/teams/#set-up-a-team-server)).
 
 **Free forever, for personal and commercial use.**
 
