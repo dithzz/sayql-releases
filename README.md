@@ -1,10 +1,10 @@
 # SayQL Community Edition
 
-Let AI into your database, not your data. With SayQL, the AI writes the SQL from your schema and never sees your rows unless you choose, and columns you mark private never reach it. The desktop app writes SQL as you type plain English, with the AI you choose, and runs it read-only by default. It works with PostgreSQL, MySQL, SQLite, SQL Server and Azure SQL.
+Let agents into your database, not your data. AI agents like Claude Code and Cursor query your database through SayQL and, by default, get your schema and counts, never your rows; columns you mark private never reach them. The desktop app writes SQL as you type plain English, with the AI you choose, and runs it read-only by default. It works with PostgreSQL, MySQL, SQLite, SQL Server and Azure SQL.
 
 - **Quick mode** writes the SQL as you type; nothing changes in your database unless you confirm it.
 - **Agent mode (beta)** investigates harder questions ("why did signups drop last week?") in read-only steps and answers with the queries behind it. It's off until you turn it on per connection, and you choose what the AI may see.
-- **MCP** lets Claude, Cursor and other AI apps use your saved connections, read-only, with your never-send columns kept private.
+- **MCP** lets Claude, Cursor and other AI apps use your saved connections, read-only. By default they get counts and summaries, not rows; you choose per connection, and never-send columns always stay private.
 - **Voice input** is transcribed on your computer; audio never leaves it.
 - **SayQL for teams** lets your people and your AI query your databases, production included, with rules the AI can't cross and a record of every query, on a server your company runs. Sign in to use the database connections your team shares. Teams set one up with `curl -fsSL https://sayql.dev/install | sh` ([setup guide](https://sayql.dev/docs/teams/#set-up-a-team-server)).
 
