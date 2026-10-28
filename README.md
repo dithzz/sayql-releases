@@ -1,6 +1,6 @@
 # SayQL Community Edition
 
-SayQL is the safe way for people and AI to query any database, even production. The desktop app writes SQL as you type plain English, with the AI you choose, and runs it read-only by default. It works with PostgreSQL, MySQL, SQLite, SQL Server and Azure SQL.
+Let AI into your database, not your data. With SayQL, the AI writes the SQL from your schema and never sees your rows unless you choose, and columns you mark private never reach it. The desktop app writes SQL as you type plain English, with the AI you choose, and runs it read-only by default. It works with PostgreSQL, MySQL, SQLite, SQL Server and Azure SQL.
 
 - **Quick mode** writes the SQL as you type; nothing changes in your database unless you confirm it.
 - **Agent mode (beta)** investigates harder questions ("why did signups drop last week?") in read-only steps and answers with the queries behind it. It's off until you turn it on per connection, and you choose what the AI may see.
